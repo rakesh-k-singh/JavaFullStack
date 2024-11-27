@@ -1,0 +1,5 @@
+package com.eob.repo;
+
+public interface RoleRepository extends JpaRespository<Role, Integer> {
+
+}

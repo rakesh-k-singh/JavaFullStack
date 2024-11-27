@@ -1,0 +1,10 @@
+package com.eob.repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.eob.entity.WorkFlow;
+
+@Repository
+public interface WorkflowRepository extends JpaRepository<WorkFlow, Integer> {
+
+}

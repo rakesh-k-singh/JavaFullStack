@@ -1,0 +1,10 @@
+package com.eob.repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.eob.entity.Document;
+
+@Repository
+public interface DocumentRespository extends JpaRepository<Document, Integer>{
+
+}

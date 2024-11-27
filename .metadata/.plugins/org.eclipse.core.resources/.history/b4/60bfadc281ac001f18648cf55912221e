@@ -1,0 +1,5 @@
+package com.eob.repo;
+
+public interface DocumentRespository extends JpaRepository<Document, Integer>{
+
+}
